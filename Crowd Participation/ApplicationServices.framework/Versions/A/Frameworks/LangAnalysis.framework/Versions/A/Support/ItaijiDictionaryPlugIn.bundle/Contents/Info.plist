@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13C23</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ItaijiDictionaryPlugIn</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ItaijiDictionaryAccessMethod</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ItaijiDictionaryPlugIn</string>
+	<key>CFBundlePackageType</key>
+	<string>dam+</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.4.0</string>
+	<key>CFBundleSignature</key>
+	<string>lam </string>
+	<key>CFBundleVersion</key>
+	<string>1.4.0</string>
+	<key>CFPlugInDynamicRegisterFunction</key>
+	<string></string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>B7E055F8-7436-11D5-BB96-0030656EE594</key>
+		<string>MyFactoryFunction</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>CCA4068C-1136-11D4-BDE1-0030653D66C8</key>
+		<array>
+			<string>B7E055F8-7436-11D5-BB96-0030656EE594</string>
+		</array>
+	</dict>
+	<key>CFPlugInUnloadFunction</key>
+	<string></string>
+	<key>DCMAccessMethodName</key>
+	<array>
+		<string>com.apple.DictionaryAccessMethod.Itaiji</string>
+	</array>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A2053</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13C23</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0501</string>
+	<key>DTXcodeBuild</key>
+	<string>5A2053</string>
+</dict>
+</plist>

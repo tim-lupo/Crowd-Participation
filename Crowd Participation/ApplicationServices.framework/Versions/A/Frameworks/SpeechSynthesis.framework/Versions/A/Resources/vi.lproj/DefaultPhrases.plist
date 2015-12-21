@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>Thông báo!</key>
+			<array>
+				<string>Thông báo!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Chú ý!</key>
+			<array>
+				<string>Chú ý!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Tha lỗi cho tôi!</key>
+			<array>
+				<string>Tha lỗi cho tôi!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Thứ lỗi cho tôi!</key>
+			<array>
+				<string>Thứ lỗi cho tôi!</string>
+			</array>
+		</dict>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>Thông báo từ </string>
+	<key>TunedAttentionString</key>
+	<string> cần sự hỗ trợ của bạn.</string>
+</dict>
+</plist>

@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RoleBasedAppFiltered</key>
+	<dict>
+		<key>com.apple.ExampleApp2</key>
+		<dict>
+			<key>AXPushButton</key>
+			<dict>
+				<key>Button</key>
+				<dict>
+					<key>IgnoreElement</key>
+					<string>YES</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>RoleBasedAppOverrides</key>
+	<dict>
+		<key>com.apple.AddressBook</key>
+		<dict>
+			<key>AXMenuBar</key>
+			<dict>
+				<key>Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] 1AEdr2EHs [[inpt text]] [[emph -]]Book</string>
+				</dict>
+			</dict>
+			<key>AXMenuItem</key>
+			<dict>
+				<key>About Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>About Address [[emph -]]Book</string>
+				</dict>
+				<key>Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] 1AEdr2EHs [[inpt text]] [[emph -]]Book</string>
+				</dict>
+				<key>Address Book Help</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] 1AEdr2EHs [[inpt text]] [[emph -]]Book Help</string>
+				</dict>
+				<key>Hide Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Hide Address [[emph -]]Book</string>
+				</dict>
+				<key>Quit Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Quit Address [[emph -]]Book</string>
+				</dict>
+			</dict>
+			<key>AXTextField</key>
+			<dict>
+				<key>Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] 1AEdr2EHs [[inpt text]] [[emph -]]Book</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.Console</key>
+		<dict>
+			<key>AXMenuBar</key>
+			<dict>
+				<key>Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+			</dict>
+			<key>AXMenuItem</key>
+			<dict>
+				<key>About Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>About [[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+				<key>Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+				<key>Console Help</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] k1AAnsOWl [[inpt text]] Help</string>
+				</dict>
+				<key>Hide Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Hide [[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+				<key>Open Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Open [[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+				<key>Quit Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Quit [[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.calculator</key>
+		<dict>
+			<key>AXPushButton</key>
+			<dict>
+				<key>%</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Percent</string>
+					<key>SynthesisString</key>
+					<string>Percent</string>
+				</dict>
+				<key>+</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Plus</string>
+					<key>SynthesisString</key>
+					<string>Plus</string>
+				</dict>
+				<key>-</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Minus</string>
+					<key>SynthesisString</key>
+					<string>Minus</string>
+				</dict>
+				<key>.</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Point</string>
+					<key>SynthesisString</key>
+					<string>Point</string>
+				</dict>
+				<key>1/x</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>One Over x</string>
+					<key>SynthesisString</key>
+					<string>[[emph -]] one over x</string>
+				</dict>
+				<key>=</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Equals</string>
+					<key>SynthesisString</key>
+					<string>Equals</string>
+				</dict>
+				<key>C</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Clear</string>
+					<key>SynthesisString</key>
+					<string>Clear</string>
+				</dict>
+				<key>CE</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Clear Entry</string>
+					<key>SynthesisString</key>
+					<string>clear entry</string>
+				</dict>
+				<key>Deg</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Degrees</string>
+					<key>SynthesisString</key>
+					<string>degrees</string>
+				</dict>
+				<key>EE</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Times Ten to the Power of</string>
+					<key>SynthesisString</key>
+					<string>Times ten to the Power of</string>
+				</dict>
+				<key>M+</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Memory Plus</string>
+					<key>SynthesisString</key>
+					<string>memory plus</string>
+				</dict>
+				<key>M-</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Memory Minus</string>
+					<key>SynthesisString</key>
+					<string>memory minus</string>
+				</dict>
+				<key>MC</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Memory Clear</string>
+					<key>SynthesisString</key>
+					<string>memory clear</string>
+				</dict>
+				<key>MR</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Memory Recall</string>
+					<key>SynthesisString</key>
+					<string>memory recall</string>
+				</dict>
+				<key>Rad</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Radians</string>
+					<key>SynthesisString</key>
+					<string>radians</string>
+				</dict>
+				<key>arc cosine</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Inverse Cosine</string>
+					<key>SynthesisString</key>
+					<string>Inverse Cosine</string>
+				</dict>
+				<key>arc sine</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Inverse Sine</string>
+					<key>SynthesisString</key>
+					<string>Inverse Sine</string>
+				</dict>
+				<key>arc tangent</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Inverse Tangent</string>
+					<key>SynthesisString</key>
+					<string>Inverse Tangent</string>
+				</dict>
+				<key>cos</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Cosine</string>
+					<key>SynthesisString</key>
+					<string>cosine</string>
+				</dict>
+				<key>ln</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Natural Log</string>
+					<key>SynthesisString</key>
+					<string>natural log</string>
+				</dict>
+				<key>log</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Logarithm</string>
+					<key>SynthesisString</key>
+					<string>logarithm</string>
+				</dict>
+				<key>sin</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Sine</string>
+					<key>SynthesisString</key>
+					<string>sine</string>
+				</dict>
+				<key>square root</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Square Root</string>
+				</dict>
+				<key>tan</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Tangent</string>
+					<key>SynthesisString</key>
+					<string>tangent</string>
+				</dict>
+				<key>x</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Times</string>
+					<key>SynthesisString</key>
+					<string>times</string>
+				</dict>
+				<key>x cubed</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>x Cubed</string>
+				</dict>
+				<key>x squared</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>x Squared</string>
+				</dict>
+				<key>x!</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>x Factorial</string>
+					<key>SynthesisString</key>
+					<string>x factorial</string>
+				</dict>
+				<key>y to the x</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>To the Power of</string>
+					<key>SynthesisString</key>
+					<string>to the power of</string>
+				</dict>
+				<key>±</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Negate</string>
+					<key>SynthesisString</key>
+					<string>negate</string>
+				</dict>
+				<key>÷</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Divided By</string>
+					<key>SynthesisString</key>
+					<string>divided by</string>
+				</dict>
+				<key>π</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Pie</string>
+					<key>SynthesisString</key>
+					<string>pie</string>
+				</dict>
+			</dict>
+			<key>AXTextField</key>
+			<dict>
+				<key>%</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>percent</string>
+				</dict>
+				<key>+
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>plus</string>
+				</dict>
+				<key>-
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>minus</string>
+				</dict>
+				<key>1/x
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] one over x</string>
+				</dict>
+				<key>Deg</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>degrees</string>
+				</dict>
+				<key>M</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>memory</string>
+				</dict>
+				<key>Rad</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>radians</string>
+				</dict>
+				<key>acos
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Inverse cosine</string>
+				</dict>
+				<key>asin
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Inverse sine</string>
+				</dict>
+				<key>atan
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Inverse Tangent</string>
+				</dict>
+				<key>cos
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>cosine</string>
+				</dict>
+				<key>ln
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>natural log</string>
+				</dict>
+				<key>log
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>logarithm</string>
+				</dict>
+				<key>sin
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>sine</string>
+				</dict>
+				<key>tan
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>tangent</string>
+				</dict>
+				<key>x
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>times</string>
+				</dict>
+				<key>x!
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>x factorial</string>
+				</dict>
+				<key>x^2
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>x squared</string>
+				</dict>
+				<key>x^3
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>x cubed</string>
+				</dict>
+				<key>y^x
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>to the power of</string>
+				</dict>
+				<key>÷
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>divided by</string>
+				</dict>
+				<key>√x
+</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>square root</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.dock</key>
+		<dict>
+			<key>AXPushButton</key>
+			<dict>
+				<key>Address Book</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] 1AEdr2EHs [[inpt text]] [[emph -]]Book</string>
+				</dict>
+				<key>Console</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] k1AAnsOWl [[inpt text]]</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.finder</key>
+		<dict>
+			<key>AXMenuItem</key>
+			<dict>
+				<key>Clean Up</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Clean [[emph +]]up</string>
+				</dict>
+				<key>Duplicate</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]]  d1UWp=lIX=k2EYt  [[inpt text]]</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.iTunes</key>
+		<dict>
+			<key>AXMenuItem</key>
+			<dict>
+				<key>Convert ID3 Tags…</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]]  kAXn=v1UXrt [[inpt text]] ID3 tags‚Ä¶</string>
+				</dict>
+				<key>Convert to MP3…</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]]  kAXn=v1UXrt [[inpt text]] to MP3‚Ä¶</string>
+				</dict>
+				<key>Play                space</key>
+				<dict>
+					<key>RecognitionString</key>
+					<string>Play</string>
+					<key>SynthesisString</key>
+					<string>Play</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>com.apple.systempreferences</key>
+		<dict>
+			<key>AXCheckBox</key>
+			<dict>
+				<key>Announce when an application requires your attention</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145 75; R 175}
+AX {D 67; P 163.85:0 163.85:20 166.45:40 167.1:60 163.85:80}
+n {D 92; P 161.9:0 163.2:16 163.2:32 158.65:48 158:64 156.7:80}
+AW {D 144; P 156.7:0 158:16 159.95:32 168.4:48 174.9:64 196.35:80}
+n {D 66; P 222.35:0 223:16 223.65:32 224.3:48 223:64 221.7:80}
+s {D 146; P 221.05:0 219.1:16 217.15:32 215.2:48 213.25:64 210.65:80}
+w {D 31; P 208.05:0 204.8:20 201.55:40 198.3:60 195.05:80}
+EH {D 32; P 191.8:0 191.8:16 191.8:32 189.85:48 189.85:64 188.55:80}
+n {D 30; P 188.55:0 188.55:16 189.85:32 189.85:48 189.85:64 187.9:80}
+IX {D 71; P 187.9:0 186.6:16 185.3:32 182.05:48 179.45:64 176.85:80}
+n {D 48; P 174.9:0 173.6:16 173.6:32 173.6:48 173.6:64 176.2:80}
+AE {D 112; P 176.2:0 176.2:16 174.9:32 174.9:48 174.9:64 174.9:80}
+p {D 100; P 176.2:0 174.9:16 173.6:32 171.65:48 170.35:64 168.4:80}
+l {D 20; P 160.6:0 160.6:33 160.6:66}
+IX {D 40; P 160.6:0 158:20 156.7:40 155.4:60 155.4:80}
+k {D 110; P 155.4:0 159.3:16 163.85:32 168.4:48 172.95:64 177.5:80}
+EY {D 118; P 191.8:0 191.8:16 191.8:32 198.3:48 206.1:64 208.05:80}
+S {D 110; P 202.85:0 195.05:16 187.25:32 178.8:48 171:64 162.55:80}
+IX {D 52; P 152.15:0 150.2:20 147.6:40 146.95:60 146.3:80}
+n {D 177; P 145.65:0 148.9:16 148.9:32 153.45:48 153.45:64 155.4:80}
+r {D 28; P 163.2:0 163.2:16 163.2:32 163.85:48 163.85:64 167.1:80}
+IX {D 76; P 168.4:0 168.4:20 163.85:40 163.85:60 163.85:80}
+k {D 117; P 163.85:0 171.65:16 179.45:32 187.25:48 195.05:64 203.5:80}
+w {D 50; P 219.75:0 217.8:33 221.05:66}
+AY {D 149; P 222.35:0 221.05:16 215.85:32 183.35:48 167.1:64 155.4:80}
+AX {D 61.8; P 146.95:0 146.95:26.6666666666667 145.65:53.3333333333333 145.65:80}
+r {D 41.2; P 145.65:10 145:50}
+z {D 92; P 148.25:0 150.2:16 152.15:32 154.75:48 156.7:64 158:80}
+y {D 50; P 159.95:0 158.65:16 156.7:32 155.4:48 155.4:64 155.4:80}
+AO {D 54.6; P 155.4:0 158:26.6666666666667 158.65:53.3333333333333 163.85:80}
+r {D 36.4; P 172.95:10 178.15:50}
+IX {D 57; P 182.05:0 182.05:16 181.4:32 180.1:48 180.1:64 179.45:80}
+t {D 104; P 179.45:0 181.4:16 184:32 185.95:48 188.55:64 191.15:80}
+EH {D 93; P 198.3:0 200.9:16 200.9:32 203.5:48 203.5:64 203.5:80}
+n {D 83; P 206.75:0 206.75:16 212.6:32 212.6:48 212.6:64 212.6:80}
+S {D 54; P 212.6:0 209.35:26.6666666666667 205.45:53.3333333333333 202.2:80}
+S {D 36; P 198.3:10 194.4:50}
+IX {D 49; P 165.15:0 159.95:16 154.75:32 152.15:48 149.55:64 146.95:80}
+n {D 120; P 144.35:0 145:16 145.65:32 146.3:48 146.95:64 147.6:80 148.9:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Beep when a modifier key is set</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>beep when a modifier [[emph -]] key is set</string>
+				</dict>
+				<key>Flash the screen whenever an alert sound occurs</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Flash the screen [[emph -]] whenever an alert [[emph -]] sound [[emph -]] occurs</string>
+				</dict>
+				<key>Selected text when the key is pressed</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+s {D 134; P 190.75:0 190.75:16 190.75:32 190.75:48 190.75:64 190.75:80}
+IX {D 53; P 190.75:0 181:16 175.75:32 173.5:48 169.75:64 166.75:80}
+IX {D 38; P 166.75:0 168.25:26}
+l {D 25.6; P 172:10 190.75:50}
+EH {D 103; P 191.5:0 206.5:16 215.5:32 216.25:48 221.5:64 221.5:80}
+k {D 58; P 221.5:0 219.25:16 216.25:32 213.25:48 211:64 208:80}
+t {D 55; P 204.25:0 202:16 199.75:32 197.5:48 195.25:64 193:80}
+IX {D 54; P 190.75:0 187.75:16 183.25:32 181:48 166.75:64 166.75:80}
+d {D 97; P 166:0 171.25:16 177.25:32 183.25:48 189.25:64 195.25:80}
+t {D 61; P 202.75:0 208.75:16 214.75:32 220.75:48 226.75:64 232.75:80}
+EH {D 170; P 240.25:0 229:16 210.25:32 173.5:48 166:64 168.25:80}
+k {D 76; P 168.25:0 168.25:16 168.25:32 168.25:48 168.25:64 168.25:80}
+s {D 109; P 168.25:0 168.25:16 168.25:32 168.25:48 168.25:64 168.25:80}
+t {D 70; P 168.25:0 168.25:16 168.25:32 168.25:48 168.25:64 168.25:80}
+. {D 70}
+_
+w {D 20; P 199:0 199:20 199:40 195.25:60 195.25:80}
+EH {D 67; P 191.5:0 191.5:16 187.75:32 185.5:48 185.5:64 185.5:80}
+n {D 84; P 187:0 184.75:16 184.75:32 187.75:48 185.5:64 185.5:80}
+n {D 16; P 187:0 189.25:16 189.25:32 189.25:48 189.25:64 189.25:80}
+IX {D 50; P 190.75:0 190.75:16 191.5:32 192.25:48 193:64 193.75:80}
+k {D 134; P 195.25:0 203.5:16 211.75:32 219.25:48 227.5:64 235:80}
+IY {D 140; P 244.75:0 250:16 244:32 234.25:48 229:64 204.25:80}
+IX {D 93; P 187:0 166.75:16 154.75:32 153.25:48 153.25:64 153.25:80}
+z {D 109; P 147.25:0 151:16 151:32 151:48 151:64 151:80}
+p {D 122; P 151:0 151:16 151:32 151:48 157:64 157.75:80}
+r {D 54; P 181.75:0 160:33 157:66}
+EH {D 91; P 154.75:0 145.75:16 143.5:32 145:48 145:64 154.75:80}
+s {D 118; P 154.75:0 154.75:16 154.75:32 154.75:48 154.75:64 154.75:80}
+t {D 96; P 154.75:0 154.75:16 154.75:32 154.75:48 154.75:64 154.75:80 154.75:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Show pressed keys on screen.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>show pressed [[emph -]] keys on screen</string>
+				</dict>
+				<key>Show preview rectangle when zoomed out</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string> [[emph -]] Show preview [[emph -]] rectangle,  [[emph -]] when zoomed out.  </string>
+				</dict>
+				<key>Speak the alert text</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+s {D 194; P 189.8:0 189.8:16 189.8:32 189.8:48 189.8:64 189.8:80}
+p {D 81; P 189.8:0 189.8:16 189.8:32 189.8:48 189.8:64 189.8:80}
+IY {D 141; P 189.8:0 178.6:16 178.6:32 172.3:48 172.3:64 172.3:80}
+k {D 119; P 172.3:0 174.4:16 176.5:32 179.3:48 181.4:64 183.5:80}
+D {D 20; P 187:0 186.3:16 186.3:32 185.6:48 185.6:64 184.9:80}
+IY {D 76; P 184.9:0 180.7:16 178.6:32 178.6:48 180.7:64 180.7:80}
+IX {D 86; P 177.2:0 175.1:16 173.7:32 170.2:48 170.2:64 175.1:80}
+l {D 46; P 175.1:0 175.1:25 184.9:50 184.9:75}
+AX {D 81.6; P 184.9:0 196.8:26.6666666666667 214.3:53.3333333333333 225.5:80}
+r {D 54.4; P 228.3:10 231.1:50}
+t {D 157; P 230.4:0 223.4:16 215.7:32 208:48 200.3:64 192.6:80}
+t {D 52; P 182.8:0 180:16 177.2:32 174.4:48 171.6:64 168.8:80}
+EH {D 147; P 165.3:0 155.5:16 152.7:32 149.2:48 147.1:64 145.7:80}
+k {D 113; P 145.7:0 145.7:16 145.7:32 145.7:48 145.7:64 145.7:80}
+s {D 170; P 145.7:0 145.7:16 145.7:32 145.7:48 145.7:64 145.7:80}
+t {D 68; P 145.7:0 145.7:16 145.7:32 145.7:48 145.7:64 145.7:80 145.7:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Speak the phrase:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+s {D 158; P 198.9:0 198.9:16 198.9:32 198.9:48 198.9:64 198.9:80}
+p {D 78; P 198.9:0 198.9:16 198.9:32 198.9:48 198.9:64 198.9:80}
+IY {D 141; P 198.9:0 191.2:16 196.8:32 211.5:48 221.3:64 225.5:80}
+k {D 157; P 222.7:0 220.6:16 218.5:32 217.8:48 217.1:64 216.4:80}
+D {D 39; P 216.4:0 217.1:16 217.8:32 218.5:48 219.2:64 219.2:80}
+AX {D 68; P 219.9:0 209.4:16 200.3:32 200.3:48 200.3:64 200.3:80}
+f {D 109; P 200.3:0 203.1:16 205.9:32 208.7:48 212.2:64 215:80}
+r {D 20; P 219.2:0 218.5:33 218.5:66}
+EY {D 342; P 218.5:0 211.5:16 191.2:32 152.7:48 150.6:64 178.6:80}
+z {D 186; P 212.2:0 210.1:16 208:32 205.9:48 203.8:64 201.7:80 200.3:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Text under the mouse</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+t {D 60; P 205.45:0 208.05:16 210:32 211.95:48 213.9:64 215.85:80}
+EH {D 169; P 224.3:0 233.4:16 219.1:32 177.5:48 157.35:64 160.6:80}
+k {D 73; P 160.6:0 160.6:16 160.6:32 160.6:48 160.6:64 160.6:80}
+s {D 108; P 160.6:0 160.6:16 160.6:32 160.6:48 160.6:64 160.6:80}
+t {D 44; P 160.6:0 160.6:16 160.6:32 160.6:48 160.6:64 160.6:80}
+UX {D 112; P 158.65:0 150.2:16 150.2:32 154.75:48 161.9:64 163.85:80}
+n {D 57; P 163.85:0 163.85:16 158.65:32 158.65:48 161.9:64 161.9:80}
+n {D 28; P 163.85:0 178.15:16 178.15:32 177.5:48 177.5:64 177.5:80}
+AX {D 30; P 176.2:0 172.95:16 167.1:32 167.1:48 165.8:64 165.8:80}
+r {D 31; P 165.8:0 165.8:16 165.8:32 165.8:48 165.8:64 165.8:80}
+D {D 32; P 171:0 174.25:16 174.25:32 176.2:48 176.2:64 179.45:80}
+AX {D 77; P 181.4:0 182.7:16 183.35:32 183.35:48 183.35:64 183.35:80}
+m {D 76; P 187.9:0 193.1:16 193.75:32 203.5:48 210.65:64 212.6:80}
+AW {D 241; P 227.55:0 229.5:16 202.2:32 158.65:48 155.4:64 151.5:80}
+s {D 325; P 151.5:0 151.5:16 151.5:32 151.5:48 151.5:64 151.5:80 151.5:95}
+[[inpt text]].  </string>
+				</dict>
+			</dict>
+			<key>AXPushButton</key>
+			<dict>
+				<key>Demonstrate Settings</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+d {D 42; P 175.55:0 177.5:16 178.8:32 180.1:48 181.4:64 183.35:80}
+EH {D 49; P 184.65:0 184.65:16 180.1:32 179.45:48 178.15:64 178.15:80}
+m {D 45; P 178.15:0 180.1:16 182.05:32 184:48 185.95:64 187.9:80}
+AX {D 91; P 190.5:0 187.9:20 185.3:40 182.7:60 180.1:80}
+n {D 45; P 178.15:0 174.9:16 174.9:32 170.35:48 170.35:64 170.35:80}
+s {D 88; P 170.35:0 172.3:16 174.25:32 176.2:48 178.15:64 180.75:80}
+t {D 77; P 183.35:0 185.95:16 188.55:32 191.15:48 193.1:64 195.7:80}
+r {D 31; P 198.3:0 191.8:33 188.55:66}
+EY {D 88; P 185.3:0 185.3:16 185.3:32 185.3:48 184.65:64 183.35:80}
+t {D 74; P 183.35:0 185.95:16 188.55:32 191.15:48 193.75:64 196.35:80}
+s {D 131; P 199.6:0 205.45:16 210.65:32 215.85:48 221.05:64 226.25:80}
+EH {D 101; P 232.75:0 234.7:16 237.95:32 239.25:48 240.55:64 237.95:80}
+t {D 80; P 237.95:0 233.4:16 228.85:32 224.3:48 219.1:64 209.35:80}
+IH {D 72; P 184.65:0 161.9:16 160.6:32 152.15:48 152.15:64 151.5:80}
+N {D 163; P 146.95:0 146.95:16 150.2:32 146.95:48 145:64 145:80}
+z {D 200; P 145:0 145:16 145:32 145:48 145:64 145:80 145:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Switch to Black on White</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Switch to black on white</string>
+				</dict>
+				<key>Switch to White on Black</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Switch to white on black</string>
+				</dict>
+				<key>Turn Off Zoom</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] t1UXrn 1AOf z1UWm [[inpt text]]</string>
+				</dict>
+				<key>Turn On Zoom</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt phon]] t1UXrn 1AAn z1UWm [[inpt text]]</string>
+				</dict>
+			</dict>
+			<key>AXRadioButton</key>
+			<dict>
+				<key>Default Voice</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+d {D 35; P 178.35:0 178.35:16 178.35:32 177.625:48 177.625:64 176.9:80}
+IX {D 66; P 176.175:0 173.275:16 170.375:32 168.2:48 165.3:64 163.125:80}
+f {D 109; P 160.225:0 159.5:16 158.775:32 158.05:48 156.6:64 155.875:80}
+AO {D 82; P 154.425:0 154.425:16 154.425:32 154.425:48 155.15:64 155.15:80}
+l {D 99; P 155.875:0 158.05:16 159.5:32 160.95:48 162.4:64 164.575:80}
+t {D 113; P 166.025:0 166.025:16 166.025:32 166.025:48 166.025:64 166.025:80}
+v {D 60; P 171.1:0 171.1:16 173.275:32 174.725:48 174.725:64 174.725:80}
+OY {D 266; P 174.725:0 189.95:16 215.325:32 245.05:48 192.85:64 152.975:80}
+s {D 224; P 146.45:0 152.975:16 152.975:32 152.975:48 152.975:64 152.975:80 152.975:\
+95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Speech Recognition</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+s {D 144; P 202.75:0 202.75:16 202.75:32 202.75:48 202.75:64 202.75:80}
+p {D 68; P 202.75:0 202.75:16 202.75:32 202.75:48 202.75:64 202.75:80}
+IY {D 138; P 202.75:0 198.25:16 206.5:32 205.75:48 195.25:64 185.5:80}
+t {D 107.4; P 185.5:0 184:26 181.75:53 180.25:80}
+S {D 91.6; P 178:10 175.75:50}
+r {D 60; P 166.75:0 166:16 165.25:32 164.5:48 163.75:64 163.75:80}
+EH {D 81; P 163:0 163:16 163:32 162.25:48 158.5:64 158.5:80}
+k {D 83; P 164.5:0 164.5:16 164.5:32 164.5:48 164.5:64 164.5:80}
+IX {D 77; P 173.5:0 164.5:16 158.5:32 156.25:48 160:64 160:80}
+g {D 60; P 160:0 160:16 160:32 160.75:48 160:64 160:80}
+n {D 49; P 160:0 160:33 160:66}
+IH {D 81; P 166:0 174.25:16 179.5:32 199:48 210.25:64 225.25:80}
+S {D 100; P 225.25:0 217:16 208.75:32 199.75:48 191.5:64 182.5:80}
+IX {D 70; P 163:0 162.25:16 161.5:32 160:48 157.75:64 156.25:80}
+n {D 116; P 154.75:0 153.25:16 151.75:32 149.5:48 148:64 147.25:80 147.25:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Spoken User Interface</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+s {D 155; P 184.2:0 184.2:16 184.2:32 184.2:48 184.2:64 184.2:80}
+p {D 83; P 184.2:0 184.2:16 184.2:32 184.2:48 184.2:64 187.7:80}
+OW {D 116; P 187.7:0 195.4:16 212.9:32 217.8:48 225.5:64 232.5:80}
+k {D 106; P 225.5:0 219.9:16 214.3:32 208:48 201.7:64 195.4:80}
+IX {D 33; P 188.4:0 170.2:16 170.2:32 161.8:48 161.8:64 161.1:80}
+n {D 103; P 161.1:0 159.7:16 159:32 161.1:48 161.8:64 166.7:80}
+y {D 35; P 168.1:0 168.1:16 168.1:32 171.6:48 175.1:64 175.1:80}
+UW {D 98; P 177.2:0 179.3:16 180.7:32 180.7:48 179.3:64 177.2:80}
+z {D 57; P 175.1:0 175.1:16 175.1:32 178.6:48 179.3:64 182.1:80}
+AX {D 58.8; P 191.2:0 191.9:26.6666666666667 191.9:53.3333333333333 191.9:80}
+r {D 39.2; P 194.7:10 195.4:50}
+IH {D 59; P 210.8:0 211.5:16 214.3:32 217.8:48 221.3:64 225.5:80}
+n {D 56; P 228.3:0 233.9:16 237.4:32 237.4:48 239.5:64 239.5:80}
+t {D 60; P 239.5:0 239.5:16 239.5:32 238.8:48 238.8:64 238.8:80}
+AX {D 33.6; P 238.8:0 230.4:26.6666666666667 218.5:53.3333333333333 212.9:80}
+r {D 22.4; P 212.9:10 212.9:50}
+f {D 112; P 212.9:0 204.5:16 195.4:32 187:48 177.9:64 168.8:80}
+EY {D 152; P 166.7:0 156.2:16 149.2:32 145:48 147.1:64 150.6:80}
+s {D 240; P 150.6:0 150.6:16 150.6:32 150.6:48 150.6:64 150.6:80 150.6:95}
+[[inpt text]].  </string>
+				</dict>
+			</dict>
+			<key>AXTextField</key>
+			<dict>
+				<key>Choose what happens when you connect a digital camera or scanner to your computer or insert a picture CD.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Choose [[emph -]] what happens [[emph -]] when [[emph -]] you connect a digital camera or scanner to your [[emph -]] computer, or insert a picture CD.</string>
+				</dict>
+				<key>Choose what happens when you connect a digital video camera to your computer or insert a video CD or DVD.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Choose [[emph -]] what happens [[emph -]] when [[emph -]] you connect a digital video [[emph -]] camera to your [[emph -]] computer, or insert a video [[emph +]] CD or [[emph +]] DVD.</string>
+				</dict>
+				<key>Choose what happens when you connect a specific digital video camera.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Choose [[emph -]] what happens [[emph -]] when [[emph -]] you connect a [[emph +]] specific digital video camera.</string>
+				</dict>
+				<key>Choose what happens when you connect a specific iPod.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Choose [[emph -]] what happens [[emph -]] when [[emph -]] you connect a [[emph +]] specific iPod.</string>
+				</dict>
+				<key>Choose what happens when you connect an iPod or insert an audio CD or MP3 CD.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Choose [[emph -]] what happens [[emph -]] when [[emph -]] you connect an iPod, or insert an audio CD or MP3 CD.</string>
+				</dict>
+				<key>Choose what happens when you insert a blank disc.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Choose [[emph -]] what happens [[emph -]] when [[emph -]] you insert a blank disc.</string>
+				</dict>
+				<key>Choose what happens when you insert a data CD or DVD or connect a blank disk.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Choose [[emph -]] what happens [[emph -]] when [[emph -]] you insert a [[emph +]] data CD or DVD, or connect a blank disk</string>
+				</dict>
+				<key>Choose what happens when you insert a specific disk.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] Choose [[emph -]] what happens [[emph -]] when [[emph -]] you insert a [[emph +]] specific disk.</string>
+				</dict>
+				<key>For difficulties pressing more than one key at a time</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>for difficulties [[emph -]] pressing [[inpt phon]] mAOr DAEn [[inpt text]] one [[emph -]] key at a time</string>
+				</dict>
+				<key>For difficulties using the mouse</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>For difficulties [[emph -]] using the mouse</string>
+				</dict>
+				<key>Increase contrast: ⌘⌥⌃.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Increase contrast: command option control period.</string>
+				</dict>
+				<key>Keyboard shortcuts can be used any time while zoom is on.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Keyboard shortcuts: can be [[emph -]] used [[inpt phon]] 1EHnIY [[inpt text]] time while zoom is [[emph +]] on.  </string>
+				</dict>
+				<key>Magnification (x):</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Magnification by:</string>
+				</dict>
+				<key>Maximum Zoom:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph +]] Maximum zoom: </string>
+				</dict>
+				<key>Minimum Zoom:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph +]] Minimum zoom: </string>
+				</dict>
+				<key>Other spoken items</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Other spoken items.  </string>
+				</dict>
+				<key>Puts a delay between when a key is pressed and when it is accepted.</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] puts a delay between when a key is pressed and when it is accepted</string>
+				</dict>
+				<key>Reduce contrast: ⌘⌥⌃,</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Reduce contrast:  command option control comma.</string>
+				</dict>
+				<key>Show preview rectangle when zoomed out</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string> [[emph -]] Show preview [[emph -]] rectangle,  [[emph -]] when zoomed out.  </string>
+				</dict>
+				<key>Sticky Keys:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Sticky [[emph -]] keys</string>
+				</dict>
+				<key>Switch to white-on-black: ⌘⌥⌃8</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Switch to white on black:  command option control 8.</string>
+				</dict>
+				<key>Talking Alerts voice:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+t {D 78; P 163:0 163:16 163:32 163:48 163:64 163:80}
+AO {D 138; P 181:0 182.5:16 183.25:32 183.25:48 183.25:64 178.75:80}
+k {D 78; P 173.5:0 181:16 188.5:32 196:48 203.5:64 211.75:80}
+IH {D 52; P 226.75:0 226.75:16 226.75:32 226.75:48 223.75:64 223.75:80}
+N {D 67; P 223.75:0 223.75:16 223.75:32 219.25:48 217.75:64 215.5:80}
+AX {D 118; P 210.25:0 210.25:16 205.75:32 204.25:48 202.75:64 196.75:80}
+l {D 48; P 191.5:0 191.5:25 198.25:50 199:75}
+AX {D 81.6; P 199:0 196.75:26.6666666666667 194.5:53.3333333333333 191.5:80}
+r {D 54.4; P 191.5:10 184.75:50}
+t {D 66; P 184.75:0 183.25:16 181:32 178.75:48 176.5:64 174.25:80}
+s {D 90; P 171.25:0 169:16 167.5:32 165.25:48 163.75:64 162.25:80}
+v {D 91; P 160:0 157:16 157:32 157:48 158.5:64 181:80}
+OY {D 281; P 200.5:0 211.75:16 191.5:32 152.5:48 160:64 183.25:80}
+s {D 271; P 205.75:0 200.5:16 195.25:32 190:48 184.75:64 178.75:80 173.5:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>Turn zoom on or off: ⌘⌥8</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Turn zoom on or off:  command option 8.</string>
+				</dict>
+				<key>Wait before speaking:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[inpt tune]]
+{V 145.3 75.2; R 180}
+w {D 90; P 161.8:0 161.8:16 161:32 157.8:48 157.8:64 159.4:80}
+EY {D 144; P 161.8:0 168.2:16 179.4:32 204.2:48 222.6:64 232.2:80}
+t {D 79; P 232.2:0 230.6:16 229:32 227.4:48 225.8:64 223.4:80}
+b {D 79; P 221:0 223.4:16 225:32 227.4:48 229:64 230.6:80}
+IX {D 79; P 233:0 233:16 224.2:32 218.6:48 217:64 215.4:80}
+f {D 94; P 213:0 213:16 217:32 220.2:48 223.4:64 226.6:80}
+AO {D 82.8; P 230.6:0 220.2:26.6666666666667 212.2:53.3333333333333 208.2:80}
+r {D 55.2; P 208.2:10 204.2:50}
+s {D 111; P 204.2:0 206.6:16 209:32 212.2:48 214.6:64 217:80}
+p {D 79; P 221:0 222.6:16 223.4:32 225:48 225.8:64 227.4:80}
+IY {D 118; P 228.2:0 222.6:16 230.6:32 236.2:48 236.2:64 232.2:80}
+k {D 104; P 232.2:0 227.4:16 222.6:32 217.8:48 213:64 208.2:80}
+IX {D 81; P 175.4:0 153:16 149.8:32 147.4:48 145.8:64 145.8:80}
+N {D 153; P 145.8:0 157.8:16 169.8:32 173.8:48 193.8:64 218.6:80 233:95}
+[[inpt text]].  </string>
+				</dict>
+				<key>When using the computer, I have difficulties with: </key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] when using the [[emph -]] computer, I have difficulties with,</string>
+				</dict>
+				<key>When you connect a blank disk:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] when you connect a blank disk:</string>
+				</dict>
+				<key>When you connect a camera:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you connect a camera:</string>
+				</dict>
+				<key>When you connect a digital video camera:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you connect a digital video [[emph -]] camera:</string>
+				</dict>
+				<key>When you connect a scanner:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you connect a scanner:</string>
+				</dict>
+				<key>When you connect an iPod:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you connect an iPod:</string>
+				</dict>
+				<key>When you insert a blank CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a blank CD:</string>
+				</dict>
+				<key>When you insert a blank DVD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a blank DVD:</string>
+				</dict>
+				<key>When you insert a data CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a data CD:</string>
+				</dict>
+				<key>When you insert a data DVD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a data DVD:</string>
+				</dict>
+				<key>When you insert a picture CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a picture CD:</string>
+				</dict>
+				<key>When you insert a video CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a video CD:</string>
+				</dict>
+				<key>When you insert a video DVD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert a video DVD:</string>
+				</dict>
+				<key>When you insert an MP3 CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert an MP3 CD:</string>
+				</dict>
+				<key>When you insert an audio CD:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you insert an audio CD:</string>
+				</dict>
+				<key>When you press the scanner's button:</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>[[emph -]] When you [[emph -]] press the scanner's button:</string>
+				</dict>
+				<key>Zoom in: ⌘⌥=</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Zoom in: command option equal.</string>
+				</dict>
+				<key>Zoom out: ⌘⌥-</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Zoom out: command option minus</string>
+				</dict>
+				<key>⌥⌘ * turns on Zoom</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Option command star: [[inpt phon]] t1UXrns 1AAn [[inpt text]] zoom.  </string>
+				</dict>
+				<key>⌥⌘+ zooms in</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Option command plus: zooms [[emph +]] in</string>
+				</dict>
+				<key>⌥⌘- zooms out</key>
+				<dict>
+					<key>SynthesisString</key>
+					<string>Option command minus: zooms [[emph +]] out.  </string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>RoleBasedGlobalOverrides</key>
+	<dict>
+		<key>AXCheckBox</key>
+		<dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>AXCloseBox</key>
+		<dict>
+			<key></key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Close window</string>
+				<key>SynthesisString</key>
+				<string>[[inpt phon]]  kl1OWz [[inpt text]]</string>
+			</dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Close window</string>
+				<key>SynthesisString</key>
+				<string>[[inpt phon]]  kl1OWz [[inpt text]]</string>
+			</dict>
+		</dict>
+		<key>AXMenuItem</key>
+		<dict>
+			<key>Close</key>
+			<dict>
+				<key>SynthesisString</key>
+				<string>[[inpt phon]]  kl1OWz [[inpt text]]</string>
+			</dict>
+			<key>Hide Status Bar</key>
+			<dict>
+				<key>SynthesisString</key>
+				<string>Hide [[inpt phon]]  st1AEtIXsbAAr [[inpt text]]</string>
+			</dict>
+			<key>Show Status Bar</key>
+			<dict>
+				<key>SynthesisString</key>
+				<string>Show [[inpt phon]]  st1AEtIXsbAAr [[inpt text]]</string>
+			</dict>
+			<key>Status Bar</key>
+			<dict>
+				<key>SynthesisString</key>
+				<string>[[inpt phon]]  st1AEtIXsbAAr [[inpt text]]</string>
+			</dict>
+		</dict>
+		<key>AXMiniaturizeBox</key>
+		<dict>
+			<key></key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Minimize window</string>
+				<key>SynthesisString</key>
+				<string>Minimize</string>
+			</dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Minimize window</string>
+				<key>SynthesisString</key>
+				<string>Minimize</string>
+			</dict>
+		</dict>
+		<key>AXPushButton</key>
+		<dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>down arrow</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>left arrow</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>page down</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>page left</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>page right</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>page up</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>right arrow</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+			<key>up arrow</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>AXRadioButton</key>
+		<dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string></string>
+				<key>SynthesisString</key>
+				<string></string>
+			</dict>
+		</dict>
+		<key>AXToolbarBox</key>
+		<dict>
+			<key></key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Toolbar</string>
+				<key>SynthesisString</key>
+				<string>Toolbar</string>
+			</dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Toolbar</string>
+				<key>SynthesisString</key>
+				<string>Toolbar</string>
+			</dict>
+		</dict>
+		<key>AXZoomBox</key>
+		<dict>
+			<key></key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Zoom window</string>
+				<key>SynthesisString</key>
+				<string>Zoom</string>
+			</dict>
+			<key>Button</key>
+			<dict>
+				<key>RecognitionString</key>
+				<string>Zoom window</string>
+				<key>SynthesisString</key>
+				<string>Zoom</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>SpecialCasedApps</key>
+	<dict>
+		<key>com.apple.ExampleApp1</key>
+		<dict>
+			<key>SpecialInstruction</key>
+			<string>IgnoreApp</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

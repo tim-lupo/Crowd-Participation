@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13A561</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>ColorSync</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ColorSync</string>
+	<key>CFBundleName</key>
+	<string>ColorSync</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.9.0</string>
+	<key>CFBundleVersion</key>
+	<string>4.9.0</string>
+	<key>CSBuiltinCMMName</key>
+	<string>Apple CMM</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>CarbonLazyValues</key>
+	<dict>
+		<key>CodeFragmentManager</key>
+		<dict>
+			<key>ColorSync</key>
+			<string>CFMPriv_ColorSync</string>
+		</dict>
+		<key>Gestalt</key>
+		<dict>
+			<key>cmta</key>
+			<integer>3</integer>
+			<key>cmtc</key>
+			<integer>1104</integer>
+		</dict>
+	</dict>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A11344p</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13A561</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0500</string>
+	<key>DTXcodeBuild</key>
+	<string>5A11344p</string>
+</dict>
+</plist>

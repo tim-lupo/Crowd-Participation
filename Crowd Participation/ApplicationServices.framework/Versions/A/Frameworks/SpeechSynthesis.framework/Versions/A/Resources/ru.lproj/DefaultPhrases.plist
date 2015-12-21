@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>Предупреждение!</key>
+			<array>
+				<string>Предупреждение!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Внимание!</key>
+			<array>
+				<string>Внимание!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Извините!</key>
+			<array>
+				<string>Извините!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Простите!</key>
+			<array>
+				<string>Простите!</string>
+			</array>
+		</dict>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>Предупреждение программы </string>
+	<key>TunedAttentionString</key>
+	<string> требует Вашей помощи.</string>
+</dict>
+</plist>

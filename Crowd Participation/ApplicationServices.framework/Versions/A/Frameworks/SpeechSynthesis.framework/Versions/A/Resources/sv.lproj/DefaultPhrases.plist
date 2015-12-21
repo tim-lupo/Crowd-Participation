@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>Varning!</key>
+			<array>
+				<string>Varning!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Se upp!</key>
+			<array>
+				<string>Se upp!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Ursäkta mig!</key>
+			<array>
+				<string>Ursäkta mig!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Förlåt mig!</key>
+			<array>
+				<string>Förlåt mig!</string>
+			</array>
+		</dict>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>Varning från </string>
+	<key>TunedAttentionString</key>
+	<string> behöver hjälp</string>
+</dict>
+</plist>

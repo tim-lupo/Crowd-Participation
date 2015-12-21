@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>เตือน!</key>
+			<array>
+				<string>เตือน!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>โปรดทราบ!</key>
+			<array>
+				<string>โปรดทราบ!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ขอประทานโทษ!</key>
+			<array>
+				<string>ขอประทานโทษ!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ประทานโทษ!</key>
+			<array>
+				<string>ประทานโทษ!</string>
+			</array>
+		</dict>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>เตือนจาก </string>
+	<key>TunedAttentionString</key>
+	<string> ต้องการความช่วยเหลือของคุณ</string>
+</dict>
+</plist>

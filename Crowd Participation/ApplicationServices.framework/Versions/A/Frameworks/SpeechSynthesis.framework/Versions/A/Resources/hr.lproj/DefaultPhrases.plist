@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>Upozorenje!</key>
+			<array>
+				<string>Upozorenje!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pažnja!</key>
+			<array>
+				<string>Pažnja!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Oprostite!</key>
+			<array>
+				<string>Oprostite!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Pardon!</key>
+			<array>
+				<string>Pardon!</string>
+			</array>
+		</dict>
+	</array>
+	<key>ExcludedTitleStrings</key>
+	<array>
+		<string>Upozorenje</string>
+		<string>Podsjetnik</string>
+		<string>Pažnja</string>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>[[inpt TUNE]]
+{V 145 75; R 180}
+_
+AX {D 60; P 161.1:0 158.1:20 148.8:42 146.6:63 146.3:78}
+l {D 100; P 146.0:0 150.4:25 154.7:44 189.5:88}
+1AX {D 56; P 195.4:0 206.6:25 214.3:42 222.4:60 227.3:71}
+r {D 80; P 261.5:0 283.9:33 266.8:73 233.0:87}
+t {D 110; P 217.6:0 204.8:25 207.3:44 214.5:100}
+~
+f {D 110; P 214.5:0 219.4:44}
+r {D 30; P 228.7:0 231.2:43}
+2UX {D 50; P 229.3:0 236.8:38}
+m {D 100; P 236.0:0 257.4:46 268.1:69}
+. {D 100}
+[[inpt TEXT]] </string>
+	<key>TunedAttentionString</key>
+	<string>[[inpt TUNE]]
+{V 145 75; R 180}
+~
+n {D 62; P 196.03:0 188.74:54}
+1IY {D 102; P 187.3:0 208.9:38 225.64:62 229.24:77}
+d {D 70; P 215.38:0 217.36:56}
+z {D 116; P 216.1:0}
+~
+y {D 35; P 213.13:0 210.34:45}
+AO {D 38; P 210.52:0 205.48:44}
+r {D 60; P 203.32:0}
+~
+AX {D 60; P 205.75:0}
+s {D 152; P 221.68:0 226.9:33 233.74:76}
+1IH {D 59; P 237.52:0 250.39:45}
+s {D 82; P 238.6:0}
+t {D 76; P 189.64:0 181.27:55}
+IX {D 36; P 170.65:0 166.24:30}
+n {D 129; P 159.85:0 169.84:53}
+s {D 206; P 181:0 197.38:19 214.57:33 280.45:100}
+. {D 10}
+[[inpt TEXT]]
+
+</string>
+</dict>
+</plist>

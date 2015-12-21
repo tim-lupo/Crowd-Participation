@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultPhraseArray</key>
+	<array>
+		<dict>
+			<key>경고가 발생했습니다!</key>
+			<array>
+				<string>경고가 발생했습니다!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>주목해 주십시오!</key>
+			<array>
+				<string>주목해 주십시오!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>죄송합니다!</key>
+			<array>
+				<string>죄송합니다!</string>
+			</array>
+		</dict>
+		<dict>
+			<key>실례합니다!</key>
+			<array>
+				<string>실례합니다!</string>
+			</array>
+		</dict>
+	</array>
+	<key>NoDefaultPhrasesSelected</key>
+	<string>다음 응용 프로그램에서 경고가 발생했습니다: </string>
+	<key>TunedAttentionString</key>
+	<string>에서 도움이 필요합니다.</string>
+</dict>
+</plist>
