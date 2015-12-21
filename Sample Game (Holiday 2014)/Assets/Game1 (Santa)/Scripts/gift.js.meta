@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad7a5ee66a91943fabed183e3ac229fd
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gift1: {fileID: 21300000, guid: bc5030ec54a434b8594f953a343a736e, type: 3}
+  - gift2: {instanceID: 0}
+  - gift3: {instanceID: 0}
+  - gift4: {instanceID: 0}
+  - gift5: {instanceID: 0}
+  - gift6: {instanceID: 0}
+  - gift7: {instanceID: 0}
+  - gift8: {instanceID: 0}
+  - gift9: {instanceID: 0}
+  - gift10: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
