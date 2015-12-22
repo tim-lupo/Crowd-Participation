@@ -5,5 +5,4 @@ Integration guide is at http://timlupo.com/img/CrowdParticipationInstructions.pd
   
 Sample video is at https://www.youtube.com/watch?v=Y18oDwKlQrk
 
-Developed by Tim Lupo (http://timlupo.com) in 2014
-Contact me at me@timlupo.com
+Developed by Tim Lupo (http://timlupo.com) in 2014, contact me at me@timlupo.com
