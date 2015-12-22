@@ -1,5 +1,5 @@
 # Crowd Participation
-Source code for 1,000+ person crowd participation project
+Source code for 1,000+ person crowd participation project.
 
 Integration guide is at http://timlupo.com/img/CrowdParticipationInstructions.pdf. This includes setup, core app explanation, and integration instructions with Unity3D. The project uses C++ OpenCV in Xcode for core app, and integrates with simulated keystrokes to Unity3D.
   
